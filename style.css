@@ -28,6 +28,8 @@ header {
     justify-content: space-between;
     align-items: center;
     width:870px;
+    box-sizing: border-box;
+    padding: 0 30px;
 }
 
 /* .logo {
@@ -197,7 +199,7 @@ hr {
 @media screen and (max-width: 668px){
 
     .container {
-        width: 68%;
+        width: 90%;
     }
     .top__players, .blogs, .courses {
         grid-template-columns: repeat(1, 1fr);
